@@ -18,8 +18,10 @@ function Login(props) { //pass props as an attribute to recieve data from app.js
 
   return (
     <div id='login'>
-        <h1 id='heading'> Login Here </h1>
-        <form onSubmit={login}>
+        <h1 id='heading'> 
+            Login Here 
+        </h1>
+        <form id='form' onSubmit={login}>
             <label id='name'>
                 Name:
                 <input type="text" name='name'/>

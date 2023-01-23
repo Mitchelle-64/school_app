@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-
+import dashboardHeader from './DashboardHeader'
 
 function Dashboard() {
   const [posts, setPost] = useState([])
@@ -12,6 +12,7 @@ function Dashboard() {
 
   return (
     <div>
+        <dashboardHeader />
         <h1> This is the dashboard and it opens when you click "Log in </h1>
         <table>
             <tr>

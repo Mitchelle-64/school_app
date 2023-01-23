@@ -3,23 +3,35 @@
     /* margin-top: 1%; 
     margin-left: 25%;
     margin-right: 25%; */
-    padding-bottom: 50%;
-    border-radius: 5px;
-    border-style: dashed;
-    border-color: black;
-    display: flex;
-    gap: 3%;
+    height: 100vh;
+    width: 100%;
+    border-style: groove;
+    border-color: #d1cfb6;
     background-image: url("./images/vecteezy_animated-set-pixel-art-golden-coin-illustration_7816877.jpg");
-    background-position: 50%;
+    background-position: center;
+    background-size: cover;
+    
 }
+
+#form {
+    background-color: #d1cfb6f6;
+    padding: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    gap: 5%;
+    border-radius: 5%;
+    border-style: groove;
+}   
 
 #name,
 #email {
-    display: inline-flex;
+    display: inline-block;
     font-family: monospace;
-    margin-top: 50%;
-    border-style: double;
-    border-width: 10px, 10px;
+    margin-top: 5%;
+    font-weight: 800;
     /*margin-left: 5%;
     margin-right: 5%; */
     
@@ -27,22 +39,27 @@
 
 #heading {
     justify-content: center;
-    display: grid;
-    margin: 3%;
+    text-align: center;
+    display: flex;
     font-weight: bold;
     font-family: monospace;
+    font-size: 64px;
+    padding-top: 100px;
+    color: #d1cfb6;
+    -webkit-text-stroke: 2px black;
+    
 }
 
 #button {
     justify-content: center;
-    border-radius: 5%;
+    border-radius: 10%;
     font-family: monospace;
+    border-width: 5%;
     border-style: dotted;
-    border-color: black;
     display: grid;
+    margin-top: 5%;
     margin-left: 40%;
     margin-bottom: 5%;
-    background-color: #8FB0A9;
     
     
 }
